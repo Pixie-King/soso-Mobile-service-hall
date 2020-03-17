@@ -1,0 +1,56 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+body {
+    font-family: 微软雅黑;
+    font-size: 12px;
+    color: #FFF;
+    line-height: 20px;
+    background-repeat: repeat-x;
+    background-position: left -100px;
+}
+#box {
+    width: 100%;
+    height: 900px;
+    background-repeat: no-repeat;
+    background-position: center -100px;
+    margin: 0px auto;
+    padding-top: 30px;
+}
+#menu {
+    width: 900px;
+    height: 30px;
+    margin: 0px auto;
+}
+#menu li {
+    list-style-type: none;
+    float: left;
+}
+#menu li a {
+    width: 130px;
+    height: 25px;
+    line-height: 25px;
+    color: #FFF;
+    text-align: center;
+    margin-left: 4px;
+    margin-right: 4px;
+    float: left;
+}
+#menu li a:link,#menu li a:visited{
+    border: solid 1px #0099FF;
+    background-color: #FFF;
+    color: #4287ca;
+    text-decoration: none;
+    filter: Alpha(Opacity=90);
+}
+#menu li a:hover {
+    border: solid 1px #F90;
+    background-color: #39F;
+    color:#FFF;
+    text-decoration: none;
+    filter: Alpha(Opacity=90);
+}
